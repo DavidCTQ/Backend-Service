@@ -1,7 +1,6 @@
 import { Request, Response } from "express";
 import { AppDataSource } from "../data-source";
 import { Product } from "../entities/Product";
-import { parse } from "path";
 // v Trae la tabla/entidad 'Producto' de la base de datos v //
 const productRepository = AppDataSource.getRepository(Product);
 // ^ ___________________________________________________ ^ //
