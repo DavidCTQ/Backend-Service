@@ -5,7 +5,8 @@ const swaggerOptions: Options = {
     openapi: "3.0.0",
     info: {
       title: "Backen Service API",
-      version: "Beta",
+      version
+      : "Beta",
       description: "API para catálogo de productos.",
     },
     servers: [
